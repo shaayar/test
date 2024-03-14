@@ -1,0 +1,48 @@
+* {
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #070707;
+}
+
+.cursor-outline {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #070707;
+  overflow: hidden;
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 999;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
+.card {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: fixed;
+}
