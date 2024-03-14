@@ -5,7 +5,7 @@ This project demonstrates how to create a custom cursor with a hover effect usin
 ## Preview
 
 ![Custom Cursor Preview](preview.gif)
-Click the image above to watch the preview video.
+
 
 ## How to Use
 
